@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Fun Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-    <h1>Hellow! Welcome to Fun World.</h1>
+
+<section class="flex justify-evenly ">
+    <div class="card card-compact bg-base-100 w-96 shadow-xl flex justify-evenly">
+        <figure>
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Shoes" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Shoes!</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <div class="card-actions justify-end flex justify-evenly">
+              <button onclick="makePink()" class="btn btn-primary">Buy Now</button>
+              <button onclick="makeGreen()" class="btn btn-primary">Buy Now</button>
+              <button onclick="makeRed()" class="btn btn-primary">Buy Now</button>
+        </div>
+        </div>
+      </div>
+    <div class="card card-compact bg-base-100 w-96 shadow-xl flex justify-evenly">
+        <figure>
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Shoes" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Shoes!</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <div class="card-actions justify-end flex justify-evenly">
+              <button onclick="makePink()" class="btn btn-primary">Buy Now</button>
+              <button onclick="makeGreen()" class="btn btn-primary">Buy Now</button>
+              <button onclick="makeRed()" class="btn btn-primary">Buy Now</button>
+        </div>
+        </div>
+      </div>
+    <div class="card card-compact bg-base-100 w-96 shadow-xl flex justify-evenly">
+        <figure>
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Shoes" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Shoes!</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <div class="card-actions justify-end flex justify-evenly">
+              <button onclick="makePink()" class="btn btn-primary">Buy Now</button>
+              <button onclick="makeGreen()" class="btn btn-primary">Buy Now</button>
+              <button onclick="makeRed()" class="btn btn-primary">Buy Now</button>
+        </div>
+        </div>
+      </div>
+</section>
+
+
+      <script>
+        function makePink () {
+            document.body.style.backgroundColor= 'pink';
+        }
+        function makeGreen () {
+            document.body.style.backgroundColor = 'green';
+        }
+        function makeRed(){
+            document.body.style.backgroundColor= 'red';
+        }
+
+
+      </script>
 </body>
+
 </html>
